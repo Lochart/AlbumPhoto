@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9526614F1CA914EF00BFB9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526614E1CA914EF00BFB9C3 /* main.m */; };
+		952661521CA914F000BFB9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661511CA914F000BFB9C3 /* AppDelegate.m */; };
+		952661581CA914F000BFB9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952661561CA914F000BFB9C3 /* Main.storyboard */; };
+		9526615B1CA914F000BFB9C3 /* Mail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 952661591CA914F000BFB9C3 /* Mail.xcdatamodeld */; };
+		9526615D1CA914F000BFB9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9526615C1CA914F000BFB9C3 /* Assets.xcassets */; };
+		952661601CA914F000BFB9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526615E1CA914F000BFB9C3 /* LaunchScreen.storyboard */; };
+		9526616B1CA914F000BFB9C3 /* MailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526616A1CA914F000BFB9C3 /* MailTests.m */; };
+		952661761CA914F000BFB9C3 /* MailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661751CA914F000BFB9C3 /* MailUITests.m */; };
+		952661851CA9154000BFB9C3 /* PHAsset+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661841CA9154000BFB9C3 /* PHAsset+Utility.m */; };
+		952661881CA9155B00BFB9C3 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952661861CA9155B00BFB9C3 /* Photos.framework */; };
+		952661891CA9155B00BFB9C3 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952661871CA9155B00BFB9C3 /* PhotosUI.framework */; };
+		9526618C1CA9158600BFB9C3 /* TableViewAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526618B1CA9158600BFB9C3 /* TableViewAlbum.m */; };
+		9526618F1CA917A100BFB9C3 /* PhotoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526618E1CA917A100BFB9C3 /* PhotoModule.m */; };
+		952661931CA917BF00BFB9C3 /* AlbumModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661921CA917BF00BFB9C3 /* AlbumModule.m */; };
+		952661981CA91C5D00BFB9C3 /* TableCellAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661971CA91C5D00BFB9C3 /* TableCellAlbum.m */; };
+		9526619E1CA91EF600BFB9C3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9526619A1CA91EF600BFB9C3 /* CoreMedia.framework */; };
+		9526619F1CA91EF600BFB9C3 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9526619B1CA91EF600BFB9C3 /* MediaAccessibility.framework */; };
+		952661A01CA91EF600BFB9C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9526619C1CA91EF600BFB9C3 /* MediaPlayer.framework */; };
+		952661A11CA91EF600BFB9C3 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9526619D1CA91EF600BFB9C3 /* MediaToolbox.framework */; };
+		952661A41CA91F9B00BFB9C3 /* CollectionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661A31CA91F9B00BFB9C3 /* CollectionPhoto.m */; };
+		952661A71CA91FB500BFB9C3 /* CollectionCellPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661A61CA91FB500BFB9C3 /* CollectionCellPhoto.m */; };
+		952661AA1CA9227D00BFB9C3 /* PreviewPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 952661A91CA9227D00BFB9C3 /* PreviewPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952661671CA914F000BFB9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952661421CA914EF00BFB9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952661491CA914EF00BFB9C3;
+			remoteInfo = Mail;
+		};
+		952661721CA914F000BFB9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952661421CA914EF00BFB9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952661491CA914EF00BFB9C3;
+			remoteInfo = Mail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9526614A1CA914EF00BFB9C3 /* Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526614E1CA914EF00BFB9C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		952661501CA914EF00BFB9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		952661511CA914F000BFB9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		952661571CA914F000BFB9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9526615A1CA914F000BFB9C3 /* Mail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mail.xcdatamodel; sourceTree = "<group>"; };
+		9526615C1CA914F000BFB9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9526615F1CA914F000BFB9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952661611CA914F000BFB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952661661CA914F000BFB9C3 /* MailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526616A1CA914F000BFB9C3 /* MailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailTests.m; sourceTree = "<group>"; };
+		9526616C1CA914F000BFB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952661711CA914F000BFB9C3 /* MailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952661751CA914F000BFB9C3 /* MailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailUITests.m; sourceTree = "<group>"; };
+		952661771CA914F000BFB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952661831CA9154000BFB9C3 /* PHAsset+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+Utility.h"; sourceTree = "<group>"; };
+		952661841CA9154000BFB9C3 /* PHAsset+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+Utility.m"; sourceTree = "<group>"; };
+		952661861CA9155B00BFB9C3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		952661871CA9155B00BFB9C3 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		9526618A1CA9158600BFB9C3 /* TableViewAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAlbum.h; sourceTree = "<group>"; };
+		9526618B1CA9158600BFB9C3 /* TableViewAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAlbum.m; sourceTree = "<group>"; };
+		9526618D1CA917A100BFB9C3 /* PhotoModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModule.h; sourceTree = "<group>"; };
+		9526618E1CA917A100BFB9C3 /* PhotoModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModule.m; sourceTree = "<group>"; };
+		952661911CA917BF00BFB9C3 /* AlbumModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModule.h; sourceTree = "<group>"; };
+		952661921CA917BF00BFB9C3 /* AlbumModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModule.m; sourceTree = "<group>"; };
+		952661961CA91C5D00BFB9C3 /* TableCellAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellAlbum.h; sourceTree = "<group>"; };
+		952661971CA91C5D00BFB9C3 /* TableCellAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellAlbum.m; sourceTree = "<group>"; };
+		9526619A1CA91EF600BFB9C3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9526619B1CA91EF600BFB9C3 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		9526619C1CA91EF600BFB9C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9526619D1CA91EF600BFB9C3 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		952661A21CA91F9B00BFB9C3 /* CollectionPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionPhoto.h; sourceTree = "<group>"; };
+		952661A31CA91F9B00BFB9C3 /* CollectionPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionPhoto.m; sourceTree = "<group>"; };
+		952661A51CA91FB500BFB9C3 /* CollectionCellPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCellPhoto.h; sourceTree = "<group>"; };
+		952661A61CA91FB500BFB9C3 /* CollectionCellPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCellPhoto.m; sourceTree = "<group>"; };
+		952661A81CA9227D00BFB9C3 /* PreviewPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewPhoto.h; sourceTree = "<group>"; };
+		952661A91CA9227D00BFB9C3 /* PreviewPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952661471CA914EF00BFB9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526619E1CA91EF600BFB9C3 /* CoreMedia.framework in Frameworks */,
+				9526619F1CA91EF600BFB9C3 /* MediaAccessibility.framework in Frameworks */,
+				952661A01CA91EF600BFB9C3 /* MediaPlayer.framework in Frameworks */,
+				952661A11CA91EF600BFB9C3 /* MediaToolbox.framework in Frameworks */,
+				952661881CA9155B00BFB9C3 /* Photos.framework in Frameworks */,
+				952661891CA9155B00BFB9C3 /* PhotosUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952661631CA914F000BFB9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526616E1CA914F000BFB9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952661411CA914EF00BFB9C3 = {
+			isa = PBXGroup;
+			children = (
+				9526614C1CA914EF00BFB9C3 /* Mail */,
+				952661691CA914F000BFB9C3 /* MailTests */,
+				952661741CA914F000BFB9C3 /* MailUITests */,
+				9526614B1CA914EF00BFB9C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9526614B1CA914EF00BFB9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9526614A1CA914EF00BFB9C3 /* Mail.app */,
+				952661661CA914F000BFB9C3 /* MailTests.xctest */,
+				952661711CA914F000BFB9C3 /* MailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9526614C1CA914EF00BFB9C3 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				952661501CA914EF00BFB9C3 /* AppDelegate.h */,
+				952661511CA914F000BFB9C3 /* AppDelegate.m */,
+				952661831CA9154000BFB9C3 /* PHAsset+Utility.h */,
+				952661841CA9154000BFB9C3 /* PHAsset+Utility.m */,
+				952661561CA914F000BFB9C3 /* Main.storyboard */,
+				952661A81CA9227D00BFB9C3 /* PreviewPhoto.h */,
+				952661A91CA9227D00BFB9C3 /* PreviewPhoto.m */,
+				952661951CA9193300BFB9C3 /* Table */,
+				952661941CA9192900BFB9C3 /* Collection */,
+				952661901CA917A700BFB9C3 /* Models */,
+				9526615C1CA914F000BFB9C3 /* Assets.xcassets */,
+				9526615E1CA914F000BFB9C3 /* LaunchScreen.storyboard */,
+				952661611CA914F000BFB9C3 /* Info.plist */,
+				952661591CA914F000BFB9C3 /* Mail.xcdatamodeld */,
+				9526614D1CA914EF00BFB9C3 /* Supporting Files */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		9526614D1CA914EF00BFB9C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9526619A1CA91EF600BFB9C3 /* CoreMedia.framework */,
+				9526619B1CA91EF600BFB9C3 /* MediaAccessibility.framework */,
+				9526619C1CA91EF600BFB9C3 /* MediaPlayer.framework */,
+				9526619D1CA91EF600BFB9C3 /* MediaToolbox.framework */,
+				952661861CA9155B00BFB9C3 /* Photos.framework */,
+				952661871CA9155B00BFB9C3 /* PhotosUI.framework */,
+				9526614E1CA914EF00BFB9C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952661691CA914F000BFB9C3 /* MailTests */ = {
+			isa = PBXGroup;
+			children = (
+				9526616A1CA914F000BFB9C3 /* MailTests.m */,
+				9526616C1CA914F000BFB9C3 /* Info.plist */,
+			);
+			path = MailTests;
+			sourceTree = "<group>";
+		};
+		952661741CA914F000BFB9C3 /* MailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				952661751CA914F000BFB9C3 /* MailUITests.m */,
+				952661771CA914F000BFB9C3 /* Info.plist */,
+			);
+			path = MailUITests;
+			sourceTree = "<group>";
+		};
+		952661901CA917A700BFB9C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9526618D1CA917A100BFB9C3 /* PhotoModule.h */,
+				9526618E1CA917A100BFB9C3 /* PhotoModule.m */,
+				952661911CA917BF00BFB9C3 /* AlbumModule.h */,
+				952661921CA917BF00BFB9C3 /* AlbumModule.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		952661941CA9192900BFB9C3 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				952661A21CA91F9B00BFB9C3 /* CollectionPhoto.h */,
+				952661A31CA91F9B00BFB9C3 /* CollectionPhoto.m */,
+				952661A51CA91FB500BFB9C3 /* CollectionCellPhoto.h */,
+				952661A61CA91FB500BFB9C3 /* CollectionCellPhoto.m */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
+		952661951CA9193300BFB9C3 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9526618A1CA9158600BFB9C3 /* TableViewAlbum.h */,
+				9526618B1CA9158600BFB9C3 /* TableViewAlbum.m */,
+				952661961CA91C5D00BFB9C3 /* TableCellAlbum.h */,
+				952661971CA91C5D00BFB9C3 /* TableCellAlbum.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952661491CA914EF00BFB9C3 /* Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9526617A1CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "Mail" */;
+			buildPhases = (
+				952661461CA914EF00BFB9C3 /* Sources */,
+				952661471CA914EF00BFB9C3 /* Frameworks */,
+				952661481CA914EF00BFB9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mail;
+			productName = Mail;
+			productReference = 9526614A1CA914EF00BFB9C3 /* Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		952661651CA914F000BFB9C3 /* MailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9526617D1CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "MailTests" */;
+			buildPhases = (
+				952661621CA914F000BFB9C3 /* Sources */,
+				952661631CA914F000BFB9C3 /* Frameworks */,
+				952661641CA914F000BFB9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952661681CA914F000BFB9C3 /* PBXTargetDependency */,
+			);
+			name = MailTests;
+			productName = MailTests;
+			productReference = 952661661CA914F000BFB9C3 /* MailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952661701CA914F000BFB9C3 /* MailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952661801CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "MailUITests" */;
+			buildPhases = (
+				9526616D1CA914F000BFB9C3 /* Sources */,
+				9526616E1CA914F000BFB9C3 /* Frameworks */,
+				9526616F1CA914F000BFB9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952661731CA914F000BFB9C3 /* PBXTargetDependency */,
+			);
+			name = MailUITests;
+			productName = MailUITests;
+			productReference = 952661711CA914F000BFB9C3 /* MailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952661421CA914EF00BFB9C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					952661491CA914EF00BFB9C3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					952661651CA914F000BFB9C3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 952661491CA914EF00BFB9C3;
+					};
+					952661701CA914F000BFB9C3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 952661491CA914EF00BFB9C3;
+					};
+				};
+			};
+			buildConfigurationList = 952661451CA914EF00BFB9C3 /* Build configuration list for PBXProject "Mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952661411CA914EF00BFB9C3;
+			productRefGroup = 9526614B1CA914EF00BFB9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952661491CA914EF00BFB9C3 /* Mail */,
+				952661651CA914F000BFB9C3 /* MailTests */,
+				952661701CA914F000BFB9C3 /* MailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952661481CA914EF00BFB9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952661601CA914F000BFB9C3 /* LaunchScreen.storyboard in Resources */,
+				9526615D1CA914F000BFB9C3 /* Assets.xcassets in Resources */,
+				952661581CA914F000BFB9C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952661641CA914F000BFB9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526616F1CA914F000BFB9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952661461CA914EF00BFB9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952661851CA9154000BFB9C3 /* PHAsset+Utility.m in Sources */,
+				9526615B1CA914F000BFB9C3 /* Mail.xcdatamodeld in Sources */,
+				952661981CA91C5D00BFB9C3 /* TableCellAlbum.m in Sources */,
+				9526618C1CA9158600BFB9C3 /* TableViewAlbum.m in Sources */,
+				952661521CA914F000BFB9C3 /* AppDelegate.m in Sources */,
+				952661AA1CA9227D00BFB9C3 /* PreviewPhoto.m in Sources */,
+				952661A41CA91F9B00BFB9C3 /* CollectionPhoto.m in Sources */,
+				952661A71CA91FB500BFB9C3 /* CollectionCellPhoto.m in Sources */,
+				9526614F1CA914EF00BFB9C3 /* main.m in Sources */,
+				9526618F1CA917A100BFB9C3 /* PhotoModule.m in Sources */,
+				952661931CA917BF00BFB9C3 /* AlbumModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952661621CA914F000BFB9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526616B1CA914F000BFB9C3 /* MailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526616D1CA914F000BFB9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952661761CA914F000BFB9C3 /* MailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952661681CA914F000BFB9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952661491CA914EF00BFB9C3 /* Mail */;
+			targetProxy = 952661671CA914F000BFB9C3 /* PBXContainerItemProxy */;
+		};
+		952661731CA914F000BFB9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952661491CA914EF00BFB9C3 /* Mail */;
+			targetProxy = 952661721CA914F000BFB9C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		952661561CA914F000BFB9C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952661571CA914F000BFB9C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9526615E1CA914F000BFB9C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9526615F1CA914F000BFB9C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952661781CA914F000BFB9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		952661791CA914F000BFB9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9526617B1CA914F000BFB9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9526617C1CA914F000BFB9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9526617E1CA914F000BFB9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.MailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail.app/Mail";
+			};
+			name = Debug;
+		};
+		9526617F1CA914F000BFB9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.MailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail.app/Mail";
+			};
+			name = Release;
+		};
+		952661811CA914F000BFB9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.MailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		952661821CA914F000BFB9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.MailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952661451CA914EF00BFB9C3 /* Build configuration list for PBXProject "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952661781CA914F000BFB9C3 /* Debug */,
+				952661791CA914F000BFB9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9526617A1CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526617B1CA914F000BFB9C3 /* Debug */,
+				9526617C1CA914F000BFB9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9526617D1CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "MailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526617E1CA914F000BFB9C3 /* Debug */,
+				9526617F1CA914F000BFB9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952661801CA914F000BFB9C3 /* Build configuration list for PBXNativeTarget "MailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952661811CA914F000BFB9C3 /* Debug */,
+				952661821CA914F000BFB9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		952661591CA914F000BFB9C3 /* Mail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9526615A1CA914F000BFB9C3 /* Mail.xcdatamodel */,
+			);
+			currentVersion = 9526615A1CA914F000BFB9C3 /* Mail.xcdatamodel */;
+			path = Mail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 952661421CA914EF00BFB9C3 /* Project object */;
+}
